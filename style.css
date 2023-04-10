@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: aqua;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.button:active{
+    transform:scale(0.97);
+    box-shadow: 15px;
+}
+.row{
+    margin: 4px 0px;
+}
+.row input{
+    padding: 10px 0px;
+    margin: 12;
+    align-self:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 23px;
+}
